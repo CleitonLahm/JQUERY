@@ -108,3 +108,42 @@ ul li img{
  position: absolute;
   
 }
+
+@media (max-width: 460px) {
+  .botoes-principais button{
+    font-size: 14px;
+    margin: 0px;
+  }
+}
+
+@media (max-width: 390px) {
+  
+  header h1{
+    font-size: 24px;
+  }
+
+  header button{
+    font-size: 14px;
+  }
+
+  h2{
+    font-size: 20px;
+  }
+
+  .botoes-principais button{
+    font-size: 14px;
+    margin: 0px;
+  }
+}
+
+@media (max-width: 375px) {
+  .botoes-principais {
+    display: grid;
+    gap: 3px;
+  }
+}
+
+
+
+
+
