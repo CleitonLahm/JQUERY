@@ -7,6 +7,11 @@ $(document).ready(function () {
     $('form').slideUp()
   })
 
+  $('#botao-apagar').click(function() {
+    $("ul li").remove();
+  })
+
+
   $('form').on('submit', function (e) {
     e.preventDefault()
     const enderecoNovaImagem = $('#endereco-imagem-nova').val()
@@ -25,4 +30,15 @@ $(document).ready(function () {
     $(novoItem).fadeIn()
     $('#endereco-imagem-nova').val("")
 })
+
+$('ul').on('click', '.deletar-imagem', function () {
+  $(this).parent().fadeOut('fast', function () {
+    $(this).remove();
+  });
+});
+
+$("#delete-all").click(function() {
+  $("#image-list li").remove();
+});
+
 })

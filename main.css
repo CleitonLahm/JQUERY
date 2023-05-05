@@ -101,3 +101,10 @@ ul li {
 ul li img{
   width: 100%;
 }
+
+#deletar-imagem{
+ background-color: #4CAF50;
+ width: 100px;
+ position: absolute;
+  
+}
