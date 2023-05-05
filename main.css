@@ -35,7 +35,9 @@ button.botao-cancelar {
 
 form {
   margin: 20px;
+  display: none;
 }
+
 
 h2 {
   font-size: 24px;
